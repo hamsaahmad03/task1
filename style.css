@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(112, 109, 109);
+    margin: auto 10px auto auto;
+    font-size: large;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: rgba(197, 199, 201, 0.226);
+  padding: 5px;
+}
+.grid-item {
+  text-align: left;
+  margin: 3px 0 0 5%;
+}
+.grid-item2 {
+  text-align: right;
+  margin: 0 5% 0 0;
+}
+.dropdown{
+    border: 0;
+    font-size: 15px;
+    padding: 5px;
+}
+.h1{
+    text-transform: uppercase;
+}
+.margin5{
+    margin: 20px 2.5%;
+}
+.logo{
+    font-size: 40px; 
+    padding: 5px;
+    margin: 20px 0px;
+}
+.columns{
+    display: flex;
+    flex-wrap: wrap;
+}
+.column{
+    flex: 30%;
+    width: 30%;
+    float: left;
+}
+.column3{
+    align-self: center;
+    padding: 0 0 0 15px;
+}
+.dropcat{
+    background-color: #f4b800;
+    width: 20%;
+    padding: 20px 10px;
+}
+
+
+
+
+  
+   
+  
+  .search-container input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: 1px;
+  }
+  
+  .search-container button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+   .search-container button:hover {
+    background: #ccc;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .search-container {
+      float: none;
+    }
+    .search-container input[type=text], .search-container button {
+      float: none;
+      display: block;
+      margin: 0;
+      padding: 14px;
+    }
+    .search-container input[type=text] {
+      border: 1px solid black;  
+    }
